@@ -1,0 +1,24 @@
+// gulp-webp-css
+
+@supports (-webkit-appearance: none) {
+    body {
+        background-color: #191919;
+        span {
+            color: black;
+        }
+        background: url('@img/noragami 1.jpg');
+    }
+}
+
+@media (max-width: 768px) {
+    span {
+        font-style: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
+
